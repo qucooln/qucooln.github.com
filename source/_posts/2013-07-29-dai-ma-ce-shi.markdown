@@ -16,5 +16,10 @@ int main()
 	cout<<"Codes Test."<<endl;
 	return 0;
 }
+```
 
+```javascript
+var a = 0;
+var b = 2;
+c = a + b;
 ```
