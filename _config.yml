@@ -3,9 +3,9 @@
 # ----------------------- #
 
 url: http://qucooln.github.io
-title: My Octopress Blog
-subtitle: A blogging framework for hackers.
-author: Your Name
+title: Qucooln
+subtitle: 
+author: Qucooln
 simple_search: http://google.com/search
 description:
 
@@ -73,12 +73,12 @@ twitter_user:
 twitter_tweet_button: true
 
 # Google +1
-google_plus_one: false
+google_plus_one: true
 google_plus_one_size: medium
 
 # Google Plus Profile
 # Hidden: No visible button, just add author information to search results
-googleplus_user:
+googleplus_user: true
 googleplus_hidden: false
 
 # Pinboard
@@ -94,7 +94,7 @@ disqus_short_name:
 disqus_show_comment_count: false
 
 # Google Analytics
-google_analytics_tracking_id:
+google_analytics_tracking_id: UA-7750597-4
 
 # Facebook Like
-facebook_like: false
+facebook_like: true
