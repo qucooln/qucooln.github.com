@@ -4,7 +4,7 @@
   <title><![CDATA[Qucooln]]></title>
   <link href="http://qucooln.github.io/atom.xml" rel="self"/>
   <link href="http://qucooln.github.io/"/>
-  <updated>2013-07-29T23:58:25+08:00</updated>
+  <updated>2013-07-30T00:06:02+08:00</updated>
   <id>http://qucooln.github.io/</id>
   <author>
     <name><![CDATA[Qucooln]]></name>
@@ -36,6 +36,17 @@
 </span><span class='line'>  <span class="n">cout</span><span class="o">&lt;&lt;</span><span class="s">&quot;Codes Test.&quot;</span><span class="o">&lt;&lt;</span><span class="n">endl</span><span class="p">;</span>
 </span><span class='line'>  <span class="k">return</span> <span class="mi">0</span><span class="p">;</span>
 </span><span class='line'><span class="p">}</span>
+</span></code></pre></td></tr></table></div></figure>
+
+
+
+
+<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+</pre></td><td class='code'><pre><code class='javascript'><span class='line'><span class="kd">var</span> <span class="nx">a</span> <span class="o">=</span> <span class="mi">0</span><span class="p">;</span>
+</span><span class='line'><span class="kd">var</span> <span class="nx">b</span> <span class="o">=</span> <span class="mi">2</span><span class="p">;</span>
+</span><span class='line'><span class="nx">c</span> <span class="o">=</span> <span class="nx">a</span> <span class="o">+</span> <span class="nx">b</span><span class="p">;</span>
 </span></code></pre></td></tr></table></div></figure>
 
 ]]></content>
