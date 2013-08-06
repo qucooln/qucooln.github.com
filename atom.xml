@@ -4,7 +4,7 @@
   <title><![CDATA[Qucooln on Github]]></title>
   <link href="http://qucooln.github.io/atom.xml" rel="self"/>
   <link href="http://qucooln.github.io/"/>
-  <updated>2013-08-06T23:40:49+08:00</updated>
+  <updated>2013-08-06T23:47:36+08:00</updated>
   <id>http://qucooln.github.io/</id>
   <author>
     <name><![CDATA[Qucooln]]></name>
@@ -29,6 +29,11 @@
 <P ALIGN="CENTER" style="font-size: 11pt">
 图1 Objective-C内存管理基本流程示意图
 </P>
+
+
+
+
+<!--more-->
 
 
 <p>从流程图中可以看到，Class A初始化之后得到的对象的引用计数(retian count)是1，持有者是Class A；接着Class B通过retain方式持有这个对象，这个对象的引用计数是2，持有者是Class A和Class B；这时有一个Class C通过copy的方式得到了一份拷贝，这个拷贝对象的引用计数是1，这个拷贝对象的持有者是Class C；
