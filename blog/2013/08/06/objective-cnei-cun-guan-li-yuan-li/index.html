@@ -5,7 +5,7 @@
 <!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
 <head>
   <meta charset="utf-8">
-  <title>Qucooln on Github</title>
+  <title>Objective-C内存管理原理 - Qucooln on Github</title>
   <meta name="author" content="Qucooln">
 
   
@@ -18,7 +18,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   
-  <link rel="canonical" href="http://qucooln.github.io">
+  <link rel="canonical" href="http://qucooln.github.io/blog/2013/08/06/objective-cnei-cun-guan-li-yuan-li">
   <link href="/favicon.png" rel="icon">
   <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
   <link href="/atom.xml" rel="alternate" title="Qucooln on Github" type="application/atom+xml">
@@ -75,15 +75,12 @@
 </nav>
   <div id="main">
     <div id="content">
-      <div class="blog-index">
+      <div>
+<article class="hentry" role="article">
   
-  
-  
-    <article>
-      
   <header>
     
-      <h1 class="entry-title"><a href="/blog/2013/08/06/objective-cnei-cun-guan-li-yuan-li/">Objective-C内存管理原理</a></h1>
+      <h1 class="entry-title">Objective-C内存管理原理</h1>
     
     
       <p class="meta">
@@ -106,7 +103,7 @@
   </header>
 
 
-  <div class="entry-content"><p>Objective-C中的内存管理机制是刚入门时比较不容易摸透的一块知识，表面上是简单的init/alloc，retain，release的游戏，可是实现下来发现很多细节并不像自己所理解的那样。这篇文章主要讨论一下Objective-C中最基本的内存管理机制的基本原理，可以帮助真正理解OC中的内存管理，以便在实现项目中可以正确运用。</p>
+<div class="entry-content"><p>Objective-C中的内存管理机制是刚入门时比较不容易摸透的一块知识，表面上是简单的init/alloc，retain，release的游戏，可是实现下来发现很多细节并不像自己所理解的那样。这篇文章主要讨论一下Objective-C中最基本的内存管理机制的基本原理，可以帮助真正理解OC中的内存管理，以便在实现项目中可以正确运用。</p>
 
 <h3>1.Objective-C内存管理流程</h3>
 
@@ -149,18 +146,55 @@ Class A不想再持有这个对象，于是release，这时对象引用计数为
 
 <p>[1] <a href="https://developer.apple.com/library/ios/#documentation/Cocoa/Conceptual/MemoryMgmt/Articles/MemoryMgmt.html#//apple_ref/doc/uid/10000011-SW1">Advanced Memory Management Programming Guide</a></p>
 </div>
+
+
+  <footer>
+    <p class="meta">
+      
   
+
+<span class="byline author vcard">Posted by <span class="fn">Qucooln</span></span>
+
+      
+
+
+
+
+
+
+
+
   
 
 
-    </article>
+<time datetime="2013-08-06T15:14:00+08:00" pubdate data-updated="true">Aug 6<span>th</span>, 2013</time>
+      
+
+<span class="categories">
   
-  <div class="pagination">
+    <a class='category' href='/blog/categories/blog/'>Blog</a>
+  
+</span>
+
+
+    </p>
     
-    <a href="/blog/archives">Blog Archives</a>
-    
-  </div>
+      <div class="sharing">
+  
+  
+  
 </div>
+
+    
+    <p class="meta">
+      
+      
+    </p>
+  </footer>
+</article>
+
+</div>
+
 <aside class="sidebar">
   
     <section>
@@ -180,6 +214,7 @@ Class A不想再持有这个对象，于是release，这时对象引用计数为
 
   
 </aside>
+
 
     </div>
   </div>
