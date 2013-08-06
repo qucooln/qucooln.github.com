@@ -1,24 +1,12 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <urlset xmlns='http://www.sitemaps.org/schemas/sitemap/0.9'>
     <url>
-        <loc>http://qucooln.github.io/blog/2013/07/29/first-testing-blog/</loc>
+        <loc>http://qucooln.github.io/blog/archives/</loc>
         <lastmod>2013-07-29T23:23:04+08:00</lastmod>
     </url>
     <url>
-        <loc>http://qucooln.github.io/blog/2013/07/29/zhong-wen-ce-shi/</loc>
-        <lastmod>2013-07-29T23:35:23+08:00</lastmod>
-    </url>
-    <url>
-        <loc>http://qucooln.github.io/blog/2013/07/29/dai-ma-ce-shi/</loc>
-        <lastmod>2013-07-30T00:05:54+08:00</lastmod>
-    </url>
-    <url>
-        <loc>http://qucooln.github.io/blog/archives/</loc>
-        <lastmod>2013-07-30T00:05:54+08:00</lastmod>
-    </url>
-    <url>
         <loc>http://qucooln.github.io/</loc>
-        <lastmod>2013-07-30T00:05:54+08:00</lastmod>
+        <lastmod>2013-07-29T23:23:04+08:00</lastmod>
     </url>
     <url>
         <loc>http://qucooln.github.io/robots.txt</loc>
