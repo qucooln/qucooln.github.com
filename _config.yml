@@ -4,7 +4,7 @@
 
 url: http://qucooln.github.io
 title: Qucooln on Github
-subtitle: A place for thinking.
+subtitle: A place for thinking
 author: Qucooln
 simple_search: http://google.com/search
 description:
@@ -70,15 +70,15 @@ github_skip_forks: true
 
 # Twitter
 twitter_user: true
-twitter_tweet_button: true
+twitter_tweet_button: false
 
 # Google +1
-google_plus_one: true
+google_plus_one: false
 google_plus_one_size: medium
 
 # Google Plus Profile
 # Hidden: No visible button, just add author information to search results
-googleplus_user: true
+googleplus_user: false
 googleplus_hidden: false
 
 # Pinboard
