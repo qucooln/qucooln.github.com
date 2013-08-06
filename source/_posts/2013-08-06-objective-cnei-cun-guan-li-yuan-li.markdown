@@ -16,6 +16,8 @@ Objective-C中的内存管理机制是刚入门时比较不容易摸透的一块
 图1 Objective-C内存管理基本流程示意图
 </P>
 
+<!--more-->
+
 从流程图中可以看到，Class A初始化之后得到的对象的引用计数(retian count)是1，持有者是Class A；接着Class B通过retain方式持有这个对象，这个对象的引用计数是2，持有者是Class A和Class B；这时有一个Class C通过copy的方式得到了一份拷贝，这个拷贝对象的引用计数是1，这个拷贝对象的持有者是Class C；
 Class A不想再持有这个对象，于是release，这时对象引用计数为1，持有者剩下Class B，接着Class B也release，这时原来的对象引用计数为0，没有持有者，销毁；对于Class C得到了拷贝对象之后，release掉，引用计数为0，没有持有者，销毁。
 这便是OC中最常见的内存管理流程。
