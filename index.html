@@ -5,11 +5,11 @@
 <!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
 <head>
   <meta charset="utf-8">
-  <title>Qucooln on Github</title>
+  <title>A Place for Thinking</title>
   <meta name="author" content="Qucooln">
 
   
-  <meta name="description" content="Objective-C中的内存管理机制是刚入门时比较不容易摸透的一块知识，表面上是简单的init/alloc，retain，release的游戏，可是实现下来发现很多细节并不像自己所理解的那样。这篇文章主要讨论一下Objective-C中最基本的内存管理机制的基本原理， &hellip;">
+  <meta name="description" content=" Blog Archives Recent Posts ">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -21,7 +21,7 @@
   <link rel="canonical" href="http://qucooln.github.io">
   <link href="/favicon.png" rel="icon">
   <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
-  <link href="/atom.xml" rel="alternate" title="Qucooln on Github" type="application/atom+xml">
+  <link href="/atom.xml" rel="alternate" title="A Place for Thinking" type="application/atom+xml">
   <script src="/javascripts/modernizr-2.0.js"></script>
   <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
   <script>!window.jQuery && document.write(unescape('%3Cscript src="./javascripts/lib/jquery.min.js"%3E%3C/script%3E'))</script>
@@ -48,9 +48,9 @@
 
 <body   >
   <header role="banner"><hgroup>
-  <h1><a href="/">Qucooln on Github</a></h1>
+  <h1><a href="/">A Place for Thinking</a></h1>
   
-    <h2>A place for thinking</h2>
+    <h2>TineCode</h2>
   
 </hgroup>
 
@@ -78,60 +78,6 @@
       <div class="blog-index">
   
   
-  
-    <article>
-      
-  <header>
-    
-      <h1 class="entry-title"><a href="/blog/2013/08/06/objective-cnei-cun-guan-li-yuan-li/">Objective-C内存管理原理</a></h1>
-    
-    
-      <p class="meta">
-        
-
-
-
-
-
-
-
-
-  
-
-
-<time datetime="2013-08-06T15:14:00+08:00" pubdate data-updated="true">Aug 6<span>th</span>, 2013</time>
-        
-      </p>
-    
-  </header>
-
-
-  <div class="entry-content"><p>Objective-C中的内存管理机制是刚入门时比较不容易摸透的一块知识，表面上是简单的init/alloc，retain，release的游戏，可是实现下来发现很多细节并不像自己所理解的那样。这篇文章主要讨论一下Objective-C中最基本的内存管理机制的基本原理，可以帮助真正理解OC中的内存管理，以便在实现项目中可以正确运用。</p>
-
-<h3>1.Objective-C内存管理流程</h3>
-
-<p>在C语言时代，内存管理基本靠malloc和free在堆区分配和回收内存，栈区的内存分配基本由系统自动管理。而在堆区手动管理内存效率并不高，malloc分配内存不能满足动态分配的特性，而且会造成碎片问题，C++的new/delete运算符稍有优化，但是还是存在问题。OC的内存管理的确是由手动控制，但其实现方式满足动态分配，并且修正了内存碎片的问题。它引进了一套“引用计数”的机制来实现内存管理，在Apple Developer Library里面可以看到这样一幅流程图<sup>[1]</sup>：</p>
-
-<p><img class="center" src="/images/BlogIllustration/memory_management.png" width="696" height="411"></p>
-
-<P ALIGN="CENTER" style="font-size: 11pt">
-图1 Objective-C内存管理基本流程示意图
-</P>
-
-
-
-
-</div>
-  
-  
-    <footer>
-      <a rel="full-article" href="/blog/2013/08/06/objective-cnei-cun-guan-li-yuan-li/">Read on &rarr;</a>
-    </footer>
-  
-
-
-    </article>
-  
   <div class="pagination">
     
     <a href="/blog/archives">Blog Archives</a>
@@ -143,10 +89,6 @@
     <section>
   <h1>Recent Posts</h1>
   <ul id="recent_posts">
-    
-      <li class="post">
-        <a href="/blog/2013/08/06/objective-cnei-cun-guan-li-yuan-li/">Objective-C内存管理原理</a>
-      </li>
     
   </ul>
 </section>
@@ -161,7 +103,7 @@
     </div>
   </div>
   <footer role="contentinfo"><p>
-  Copyright &copy; 2013 - Qucooln -
+  Copyright &copy; 2014 - Qucooln -
   <span class="credit">Powered by <a href="http://octopress.org">Octopress</a></span>
 </p>
 
